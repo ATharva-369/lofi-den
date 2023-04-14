@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron&family=Sacramento&display=swap');
+body{
+  background-image: url("images/image.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+
+}
+.container{
+  display: flex;
+  flex-direction: row;
+  align-items: left;
+  justify-content: left;
+  margin-top: 5vh;
+}
+#livestream{
+  width: 100vh;
+  height:90vh;
+  border: none;
+  margin-left: 12vh;
+}
+.input{
+  margin-left: 15vh;
+}
+input{
+  width: 70vh;
+  height:5vh;
+  font-size: 2.5rem;
+}
+.input-elements{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.button-container{
+  align-items: center;
+  justify-content: center;
+}
+.music-button{
+  align-self: center;
+  height: 10vh;
+  width:15vh;
+  margin:5vh;
+  margin-left: 50vh;
+  font-size: 1.7rem;
+  background-color: #CEA2D7;
+  font-family: 'Orbitron', sans-serif;
+  
+}
+.music-button:active{
+  transform: scale(0.95);
+  /* Scaling button to 0.98 to its original size */
+  box-shadow: 5px 5px 32px 2px rgba(0, 0, 0, 0.24);
+  /* Lowering the shadow */
+
+}
+.title{
+  font-family: sacramento;
+  font-size: 6rem;
+  text-align: center;
+}
+.video{
+  display: flex;
+  flex-direction: column;
+}
