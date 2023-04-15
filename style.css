@@ -1,6 +1,6 @@
-@import url('https://fonts.googleapis.com/css2?family=Orbitron&family=Sacramento&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Hina+Mincho&family=Play&family=Sacramento&family=Share+Tech&display=swap');
 body{
-  background-image: url("images/image.jpg");
+  /* background-image: url("images/background0.jpg"); */
   background-size: cover;
   background-repeat: no-repeat;
 
@@ -17,6 +17,7 @@ body{
   height:90vh;
   border: none;
   margin-left: 12vh;
+
 }
 .input{
   margin-left: 15vh;
@@ -44,7 +45,7 @@ input{
   margin-left: 50vh;
   font-size: 1.7rem;
   background-color: #CEA2D7;
-  font-family: 'Orbitron', sans-serif;
+  border-radius: 20vh;
   
 }
 .music-button:active{
@@ -62,4 +63,40 @@ input{
 .video{
   display: flex;
   flex-direction: column;
+}
+#jazz{
+  font-family:'Sacramento', 'sans-serif';
+  font-size: 2.5rem;
+  font-weight: 550;
+}
+#shiloh{
+  font-family:'Share Tech','sans-serif';
+}
+#chill{ 
+  font-family:'Play';
+}
+.music-button:hover{
+
+	-webkit-animation: pulsate 1s linear infinite;
+	animation: pulsate 1s linear infinite;
+}
+
+@-webkit-keyframes pulsate
+{
+	0%   { color: #ddd; text-shadow: 0 -1px 0 #000; }
+	50%  { color: #fff; text-shadow: 0 -1px 0 #444, 0 0 5px #ffd, 0 0 8px #fff; }
+	100% { color: #ddd; text-shadow: 0 -1px 0 #000; }
+}
+		
+@keyframes pulsate
+{
+	0%   { color: #ddd; text-shadow: 0 -1px 0 #000; }
+	50%  { color: #fff; text-shadow: 0 -1px 0 #444, 0 0 5px #ffd, 0 0 8px #fff; }
+	100% { color: #ddd; text-shadow: 0 -1px 0 #000; }
+}
+#change{
+  width: 20vh;
+  font-family: 'Sacramento';
+  line-height: 1.3rem;
+  font-size: 2rem;
 }
